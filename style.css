@@ -1,0 +1,314 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  color: #3D3D3D;
+}
+
+
+video {
+  display: block;
+ 
+}
+
+section {
+  opacity: 1;
+  transition: opacity 500ms ease-in-out;
+}
+.removed {
+  display: none;
+}
+
+.invisible {
+  opacity: 0.2;
+  width: 70%;
+  height: 380px;
+
+}
+
+.camView {
+  position: relative;
+  float: left;
+  width: calc(100% - 20px);
+  cursor: pointer;
+ 
+}
+
+.camView p {
+  position: absolute;
+  padding: 5px;
+  background-color: rgba(255, 111, 0, 0.85);
+  color: #FFF;
+  border: 1px dashed rgba(255, 255, 255, 0.7);
+  z-index: 2;
+  font-size: 12px;
+}
+
+.highlighter {
+  background: rgba(0, 255, 0, 0.25);
+  border: 1px dashed #fff;
+  z-index: 1;
+  position: absolute;
+}
+
+#webcamButton{
+
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 20px;
+padding-right: 20px;
+background-color: royalblue;
+border: royalblue solid 2px;
+color: white;
+}
+
+
+
+.flexContainer{
+
+  display: flex;
+}
+
+.sideNav{
+  width: 25%;
+  background-color: blueviolet;
+  height: 100vh;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.rightSide{
+  width: 70%;
+  height: 100vh;
+  padding-left: 30px;
+}
+
+.searchContainer{
+  background-color: rgb(214, 206, 206);
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  position: relative;
+}
+.searchContainer img{
+  height: 20px;
+  width: auto;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+
+}
+
+.navBar{
+  display: flex;
+  margin-top: 30px;
+}
+
+.menuBar{
+  display: inline-flex;
+}
+
+.menuItem{
+  list-style-type: none;
+  text-decoration: none;
+  padding-top: 5px;
+  padding-left: 25px;
+  font-size: small;
+
+}
+
+.colorGray{
+color: gray;
+}
+
+.colorBlack{
+  color: black;
+}
+.notifications{
+  height: 30px;
+  width: auto;
+}
+.logo{
+  height: 30px;
+  width: auto;
+  margin: 0;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.menuLogo{
+  height: 20px;
+  width: auto;
+  margin-bottom: 5px;
+}
+.rightMenu{
+  position: absolute;
+  right: 50px;
+}
+
+.liveText{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: black;
+}
+
+.liveContainer{
+  display: flex;
+  width: 100%;
+}
+
+.liveRight{
+  width: 30%;
+  background-color: rgb(226, 216, 216);
+  border-radius: 10px;
+  margin-left: 20px;
+  padding: 20px;
+}
+.liveP1{
+  text-align: center;
+  font-weight: bold;
+}
+
+.bottomDiv{
+  display: flex;
+}
+
+.profileImage{
+  height: 50px;
+  width: auto;
+ 
+}
+.bootomDiv2{
+  margin-top: 13px;
+}
+.bootomDiv2 p{
+  font-size: 12px;
+}
+.bootomDiv2 a{
+  color: black;
+  font-weight: bold;
+}
+.btnContainer{
+  margin-top: 10px;
+  margin-left: 230px;
+  height: 50px;
+}
+.analytBtn{
+  background-color: red;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: normal;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: red 2px solid;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.side1{
+  height: 120px;
+  width: 100%;
+  background-color: rgb(166, 100, 228);
+  border-radius: 0 0 10px 10px;
+}
+
+.side2{
+  height: 180px;
+  width: 100%;
+  margin-top: 20px;
+  background-color: rgb(166, 100, 228);
+  border-radius: 10px;
+}
+.sideNav P{
+  color: white;
+  font-weight: bold;
+  padding-top: 20px;
+}
+.sideNav h6{
+  color: white;
+  
+}
+.videoContainer{
+	position:relative;
+	
+	
+}
+
+#myVideo{
+	width:100%;
+	height: 100%;
+	
+}
+
+.videoOverlay{
+	position: absolute;
+	margin: 20px;
+	
+	
+	
+}
+.videoOverlay p{
+	margin: 0;
+	padding: 0;
+	font-size: 50px;
+	
+	color: green;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.thePosition{
+	position: absolute;
+	top:40px;
+	right: 40px;
+	margin-right: 20px;
+	border: 4px green solid;
+	padding: 5px;
+}
+
+.videoFlex{
+	display: flex;
+	  
+
+}
+
+
+#aiLogic{
+	display: none;
+}
+
+.bttClass{
+	position: fixed;
+	bottom: 90px;
+	
+}
+
+/* New section*/
+
+.hero{
+	text-align: center;
+	position: absolute;
+	left:180px;
+	margin-top: 40px;
+}
+.hero h1{
+	color: green;
+	font-size: 60px;
+	font-weight: bold;
+	
+}
+
+footer img{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+.heroimg{
+	width: auto;
+	height: 200px;
+}
